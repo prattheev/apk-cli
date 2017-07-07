@@ -30,7 +30,7 @@
     "download apk"
   ],
   "author": "Pratheev",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^2.0.1",
     "cheerio": "^1.0.0-rc.2",
@@ -41,5 +41,13 @@
     "object-assign": "^4.1.1",
     "progress": "^2.0.0",
     "request": "^2.81.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prattheev/apk-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prattheev/apk-cli/issues"
+  },
+  "homepage": "https://github.com/prattheev/apk-cli#readme"
 }
