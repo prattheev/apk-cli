@@ -4,9 +4,10 @@ const chalk = require('chalk');
 
 exports.getAPK=function(url,pkg){
   console.log(chalk.bold.magenta("APK found!"));
+  console.log("Downloading APK to " + chalk.bold.cyan(process.cwd()));
   var download = new Download()
     .get(url)
-    .dest(__dirname)
+    .dest(process.cwd())
     .rename(pkg+'.apk')
     .use(downloadStatus())
     .run(function(err,files){
