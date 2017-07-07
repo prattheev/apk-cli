@@ -1,0 +1,45 @@
+{
+  "name": "apk",
+  "version": "1.0.0",
+  "description": "Download APKs from CLI",
+  "main": "apk.js",
+  "scripts": {},
+  "bin": {
+    "apk": "./apk.js"
+  },
+  "keywords": [
+    "apk",
+    "download",
+    "play store apk",
+    "apk play store",
+    "play store download",
+    "download play store",
+    "package name apk",
+    "apk package name",
+    "package name download",
+    "download package name",
+    "package name play store apk",
+    "play store apk package name",
+    "package name apk play store",
+    "apk play store package name",
+    "package name play store download",
+    "play store download package name",
+    "package name download play store",
+    "download play store package name",
+    "apk download",
+    "download apk"
+  ],
+  "author": "Pratheev",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.11.0",
+    "download": "^4.4.3",
+    "jsonfile": "^3.0.1",
+    "lpad-align": "^2.0.0",
+    "object-assign": "^4.1.1",
+    "progress": "^2.0.0",
+    "request": "^2.81.0"
+  }
+}
