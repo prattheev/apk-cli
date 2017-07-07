@@ -1,9 +1,9 @@
 # apk-cli
 Download APKs from CLI
 
-[![NPM Version](http://img.shields.io/npm/v/node-prompt-here.svg)](https://www.npmjs.org/package/apk)
-[![Dependency Status](https://david-dm.org/s-a/node-prompt-here.svg)](https://david-dm.org/s-a/node-prompt-here/) 
-[![devDependency Status](https://david-dm.org/s-a/node-prompt-here/dev-status.svg)](https://david-dm.org/s-a/node-prompt-here/#info=devDependencies)  
+[![NPM Version](https://img.shields.io/npm/v/apk.svg)](https://www.npmjs.org/package/apk)
+[![Dependency Status](https://david-dm.org/prattheev/apk-cli.svg)](https://david-dm.org/prattheev/apk-cli/) 
+[![devDependency Status](https://david-dm.org/prattheev/apk-cli/dev-status.svg)](https://david-dm.org/prattheev/apk-cli/#info=devDependencies)  
 
 ## Installation
 ```bash
@@ -19,4 +19,4 @@ apk <package_name>
 Copyright (c) 2017 Pratheev <pratheev@email.com>  
 This software is licensed under MIT.  
 
-[<img src="https://s-a.github.io/license/img/mit.svg" />](/LICENSE.md#mit "Massachusetts Institute of Technology (MIT)")
+[<img src="https://img.shields.io/badge/License-MIT License-brightgreen.svg" />](/LICENSE.md#mit "Massachusetts Institute of Technology (MIT)")
