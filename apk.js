@@ -5,7 +5,7 @@ const chalk = require('chalk');
 const Fetch = require('./fetch');
 
   apk
-  .version(chalk.bold.green("1.1.0"))
+  .version(chalk.bold.green("1.1.1"))
   .description(chalk.bold.blue('Download APKs from CLI'))
   .usage(chalk.bold.green('<package_name> ') + chalk.dim.cyan('[options]'))
   .parse(process.argv);
