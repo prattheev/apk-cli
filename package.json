@@ -35,7 +35,7 @@
     "chalk": "^2.0.1",
     "cheerio": "^1.0.0-rc.2",
     "commander": "^2.11.0",
-    "download": "^4.4.3",
+    "download": "^5.0.1",
     "jsonfile": "^3.0.1",
     "lpad-align": "^2.0.0",
     "object-assign": "^4.1.1",
