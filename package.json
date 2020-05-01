@@ -3,7 +3,10 @@
   "version": "1.2.0",
   "description": "Download APKs from CLI",
   "main": "apk.js",
-  "scripts": {},
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
   "bin": {
     "apk": "./apk.js"
   },
@@ -40,7 +43,8 @@
     "lpad-align": "^2.0.0",
     "object-assign": "^4.1.1",
     "progress": "^2.0.0",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "snyk": "^1.316.1"
   },
   "repository": {
     "type": "git",
@@ -49,5 +53,6 @@
   "bugs": {
     "url": "https://github.com/prattheev/apk-cli/issues"
   },
-  "homepage": "https://github.com/prattheev/apk-cli#readme"
+  "homepage": "https://github.com/prattheev/apk-cli#readme",
+  "snyk": true
 }
